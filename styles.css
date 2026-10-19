@@ -1,0 +1,29 @@
+html{
+    background-color: rgb(254, 255, 203);
+}
+
+body{
+    margin: 0;
+}
+
+.bullets {
+    list-style-type: none;
+    padding: 10px;
+    display:flex;
+    background-color: blanchedalmond;
+
+}
+
+.site-link{
+    margin: 0 10px;
+    background-color: rgb(255, 193, 245);
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display:inline-block;
+    border-radius: 20px;
+}
+
+.site-link:hover {
+    background-color: darkorange;
+}
