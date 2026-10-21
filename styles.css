@@ -1,29 +1,66 @@
 html{
     background-color: rgb(254, 255, 203);
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
+
 
 body{
     margin: 0;
 }
 
+.site-header{
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
 .bullets {
     list-style-type: none;
-    padding: 10px;
+    padding: 0px;
     display:flex;
     background-color: blanchedalmond;
-
 }
 
 .site-link{
-    margin: 0 10px;
+    margin: 10px;
     background-color: rgb(255, 193, 245);
     padding: 10px;
     text-decoration: none;
     color: black;
     display:inline-block;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .site-link:hover {
     background-color: darkorange;
 }
+
+.sidebar{
+    background-color: rgb(255, 162, 174);
+    flex: 0 0 200px;
+    padding: 20px;
+}
+
+.site-main{
+    background-color: chartreuse;
+    padding: 20px;
+}
+
+.site-footer{
+    background-color: rgb(148, 203, 247);
+    padding: 20px;
+}
+
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.two-col{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
